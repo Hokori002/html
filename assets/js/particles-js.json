@@ -1,23 +1,23 @@
 {
   "particles": {
     "number": {
-      "value": 60,
+      "value": 80,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#FFFFFF"
+      "value": "#f2d500"
     },
     "shape": {
-      "type": "circle",
+      "type": "edge",
       "stroke": {
         "width": 0,
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 9
       },
       "image": {
         "src": "img/github.svg",
@@ -26,7 +26,7 @@
       }
     },
     "opacity": {
-      "value": 100,
+      "value": 1,
       "random": false,
       "anim": {
         "enable": false,
@@ -36,34 +36,34 @@
       }
     },
     "size": {
-      "value": 3,
+      "value": 64.13648243462092,
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 20,
+        "speed": 40,
         "size_min": 0.1,
         "sync": false
       }
     },
     "line_linked": {
-      "enable": true,
-      "distance": 150,
+      "enable": false,
+      "distance": 2000,
       "color": "#ffffff",
-      "opacity": 0.8,
-      "width": 1
+      "opacity": 0.12025590456491421,
+      "width": 20
     },
     "move": {
       "enable": true,
-      "speed": 4,
-      "direction": "none",
+      "speed": 88.18766334760375,
+      "direction": "bottom",
       "random": true,
-      "straight": false,
-      "out_mode": "out",
+      "straight": true,
+      "out_mode": "bounce",
       "bounce": false,
       "attract": {
         "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
+        "rotateX": 1202.559045649142,
+        "rotateY": 1282.7296486924183
       }
     }
   },
@@ -72,7 +72,7 @@
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "grab"
+        "mode": "repulse"
       },
       "onclick": {
         "enable": true,
@@ -99,12 +99,12 @@
         "duration": 0.4
       },
       "push": {
-        "particles_nb": 10
+        "particles_nb": 4
       },
       "remove": {
         "particles_nb": 2
       }
     }
   },
-  "retina_detect": true
+  "retina_detect": false
 }
